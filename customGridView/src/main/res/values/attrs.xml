@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomGridView">
+        <attr name="numRows" format="integer" />
+        <attr name="numColumns" format="integer" />
+        <attr name="cellPadding" format="dimension" />
+        <attr name="cellMargin" format="dimension" />
+        <attr name="cellColor" format="color" />
+        <attr name="shapeType" format="enum">
+            <enum name="square" value="0" />
+            <enum name="circle" value="1" />
+            <enum name="roundedSquare" value="2" />
+        </attr>
+        <attr name="backgroundDrawable" format="reference" />
+    </declare-styleable>
+</resources>
